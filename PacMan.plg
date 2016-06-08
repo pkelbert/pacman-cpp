@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PacMan - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\kelbert\CONFIG~1\Temp\RSP292.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/PacMan.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\Works\INF110\TP4\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\kelbert\CONFIG~1\Temp\RSP292.tmp" 
+Creating temporary file "C:\DOCUME~1\kelbert\CONFIG~1\Temp\RSP293.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PacMan.pdb" /debug /machine:I386 /nodefaultlib:"LIBCMT" /nodefaultlib:"LIBCMTD" /out:"Debug/PacMan.exe" /pdbtype:sept 
+.\Debug\base.obj
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\kelbert\CONFIG~1\Temp\RSP293.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Z:\Works\INF110\TP4\main.cpp(433) : warning C4715: 'inExtremity' : not all control paths return a value
+Z:\Works\INF110\TP4\main.cpp(491) : warning C4715: 'posicaoVizinho' : not all control paths return a value
+Z:\Works\INF110\TP4\main.cpp(510) : warning C4715: 'getVizinho' : not all control paths return a value
+Z:\Works\INF110\TP4\main.cpp(590) : warning C4715: 'intToDir' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+PacMan.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
